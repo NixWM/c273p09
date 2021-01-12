@@ -4,7 +4,7 @@ $(document).ready(function () {
         console.log("#idCountry");
         $.ajax({
             type: "GET",
-            url: "http://localhost/C273/P09/getCountryDetails.php",
+            url: "getCountryDetails.php",
             data: "id=" + id,
             cache: false,
             dataType: "JSON",
